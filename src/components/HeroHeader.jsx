@@ -44,7 +44,7 @@ export default function HeroHeader() {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="absolute top-0 left-0 z-10 w-full bg-primary/25 backdrop-blur-md md:hidden"
+            className="absolute top-0 left-0 z-20 w-full bg-primary/25 backdrop-blur-md md:hidden"
           >
             <div className="flex flex-col items-center gap-6 py-20 text-primary font-medium text-lg">
               {nav.map((item) => (

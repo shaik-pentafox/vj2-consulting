@@ -1,4 +1,4 @@
-import { IconBrandInstagram, IconBrandX } from "@tabler/icons-react";
+import { IconBrandInstagram, IconBrandLinkedin, IconBrandX } from "@tabler/icons-react";
 import { IconPhone, IconMail, IconMapPin, IconCalendar } from "@tabler/icons-react";
 import Logo from "../assets/LogoLight.png";
 
@@ -35,7 +35,7 @@ export default function Footer() {
 
             <p className="mt-4 text-white/80">
               Tushar Bhanushali <br />
-              General Manager (Mumbai)
+              Founder & CEO (Mumbai)
             </p>
 
             <div className="mt-4 space-y-2 text-white/80">
@@ -56,8 +56,12 @@ export default function Footer() {
             <h4 className="font-semibold text-white">Follow us</h4>
 
             <div className="mt-4 flex gap-4">
-              <a href="https://instagram.com" target="_blank" className="rounded-full bg-white/10 p-3 transition hover:bg-accent hover:text-primary">
+              <a href="https://www.instagram.com/vj2consulting" target="_blank" className="rounded-full bg-white/10 p-3 transition hover:bg-accent hover:text-primary">
                 <IconBrandInstagram size={20} />
+              </a>
+
+              <a href="https://www.linkedin.com/company/112021980/admin/page-posts/published" target="_blank" className="rounded-full bg-white/10 p-3 transition hover:bg-accent hover:text-primary">
+                <IconBrandLinkedin size={20} />
               </a>
 
               <a href="https://x.com/VJ2Consulting" target="_blank" className="rounded-full bg-white/10 p-3 transition hover:bg-accent hover:text-primary">

@@ -1,23 +1,37 @@
 import { motion as Motion } from "framer-motion";
 
-import Service1 from "../assets/Service1.png";
-import Service2 from "../assets/Service2.png";
-import Service3 from "../assets/Service3.png";
-import Service4 from "../assets/Service4.png";
-import Service5 from "../assets/Service5.png";
-import Service6 from "../assets/Service6.png";
-import Service7 from "../assets/Service7.png";
-import Service8 from "../assets/Service8.png";
-import Service9 from "../assets/Service9.png";
+// import Service1 from "../assets/Service1.png";
+// import Service2 from "../assets/Service2.png";
+// import Service3 from "../assets/Service3.png";
+// import Service4 from "../assets/Service4.jpg";
+// import Service5 from "../assets/Service5.png";
+// import Service6 from "../assets/Service6.jpg";
+// import Service7 from "../assets/Service7.png";
+// import Service8 from "../assets/Service8.png";
+// import Service9 from "../assets/Service9.png";
+import Service1 from "../assets/Services1.png";
+import Service2 from "../assets/Services2.png";
+import Service3 from "../assets/Services3.png";
+import Service4 from "../assets/Services4.png";
+import Service5 from "../assets/Services5.png";
+import Service6 from "../assets/Services6.png";
+import Service7 from "../assets/Services7.png";
+import Service8 from "../assets/Services8.png";
+import Service9 from "../assets/Services9.png";
 
 const services = [
+  {
+    title: "Workforce Management Solutions",
+    img: Service9,
+    desc: "We optimize planning, staffing, forecasting, Real-time Management and service levels with AI-powered insights and best-in-class processes.",
+  },
   { title: "Automation AI", img: Service1, desc: "We boost efficiency and cash flow using Process Optimization and AI/ML across industries." },
   { title: "Workflow Automation", img: Service2, desc: "Scalable automation that improves accuracy and ROI across complex operations." },
-  { title: "Process Optimisation", img: Service3, desc: "We identify bottlenecks and improve productivity with KPI-driven optimization." },
+  { title: "Process Optimization", img: Service3, desc: "We identify bottlenecks and improve productivity with KPI-driven optimization." },
   {
     title: "Start-up Mentorship",
     img: Service4,
-    desc: "We help start-ups to design and deploy scalable, integrated automations that reduces delays, improves accuracy and drives measurable ROI across complex operations. We consult Start-up to become cash flow positive by implementing cadence on reporting, cadence and governances. We helping them build scalable leadership practices and funding at various stages via our VC funding partnerships.",
+    desc: "We help start-ups to design and deploy scalable, integrated automation that reduces delays, improves accuracy and drives measurable ROI across complex operations. We consult Start-up to become cash flow positive by implementing cadence on reporting, cadence and governances. We helping them build scalable leadership practices and funding at various stages via our VC funding partnerships.",
   },
   {
     title: "Time-share Leadership",
@@ -38,11 +52,6 @@ const services = [
     title: "Business Process Re-engineering",
     img: Service8,
     desc: "We rethink how your business operates to cut inefficiencies and produce tangible outcomes. We assist you in achieving quantifiable increases in productivity and cost control by utilizing technology and coordinating processes with strategy.",
-  },
-  {
-    title: "Workforce Management Solutions",
-    img: Service9,
-    desc: "We optimize planning, staffing, forecasting, Real-time Management and service levels with AI-powered insights and best-in-class processes.",
   },
 ];
 
